@@ -1,2 +1,2 @@
-/Users/brianb/git/MobileApps-BJTU/TwitterSearches/app/build/intermediates/classes/debug
-/Users/brianb/git/MobileApps-BJTU/TwitterSearches/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-024162b91a071da6b51ac481d30b5cc00a8a691a.jar
+C:\Users\yg\Desktop\twitter-searches\app\build\intermediates\classes\debug
+C:\Users\yg\Desktop\twitter-searches\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-536d246b7a15f1b409fc7d007c6ace474e829d40.jar

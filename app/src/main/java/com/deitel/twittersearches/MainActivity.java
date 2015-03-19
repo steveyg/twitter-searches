@@ -136,18 +136,18 @@ public class MainActivity extends ListActivity
          String tag = ((TextView) view).getText().toString();
          String urlString = getString(R.string.searchURL) +
             Uri.encode(savedSearches.getString(tag, ""), "UTF-8");
-         
-         // create an Intent to launch a web browser    
-         Intent webIntent = new Intent(Intent.ACTION_VIEW, 
-            Uri.parse(urlString));                      
+
+         // create an Intent to launch a web browser
+         Intent webIntent = new Intent(Intent.ACTION_VIEW,
+            Uri.parse(urlString));
 
          startActivity(webIntent); // launches web browser to view results
-      } 
+      }
    }; // end itemClickListener declaration
-   
-   // itemLongClickListener displays a dialog allowing the user to delete 
+
+   // itemLongClickListener displays a dialog allowing the user to delete
    // or edit a saved search
-   OnItemLongClickListener itemLongClickListener = 
+   OnItemLongClickListener itemLongClickListener =
       new OnItemLongClickListener()
       {
          @Override
@@ -156,9 +156,9 @@ public class MainActivity extends ListActivity
          {
             // get the tag that the user long touched
             final String tag = ((TextView) view).getText().toString();
-            
+
             // create a new AlertDialog
-            AlertDialog.Builder builder = 
+            AlertDialog.Builder builder =
                new AlertDialog.Builder(MainActivity.this);
             
             // set the AlertDialog's title
